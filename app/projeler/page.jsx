@@ -44,33 +44,7 @@ export default function Hakkimda() {
           <div></div>
           <span className='text-white'>{'</'}</span>div<span className='text-white'>{'>'}</span>
         </div> 
-         {/* Discord adresim */}
-        <div className='ml-8 text-green-500'>
-          <span className='text-white'>{'<'}</span>div{' '}
-            <span className='text-purple-500'> 
-              className<span className='text-red-500'>=</span>
-              <span className='text-blue-500'>{'{'}</span>
-              <span className='text-blue-400'>{'`flex flex-col gap-2 text-md md:text-xl text-bold`'}</span>
-              <span className='text-blue-500'>{'}'}</span>
-            </span>
-          <span className='text-white'>{'>'}</span>
-          <div className='ml-2 text-white'>Discord adresin nedir?</div>
-          <span className='ml-2 text-white'>{'<'}</span>div{' '}
-            <span className='text-purple-500'> 
-              className<span className='text-red-500'>=</span>
-              <span className='text-blue-500'>{'{'}</span>
-              <span className='text-blue-400'>{'`text-sm md:text-md`'}</span>
-              <span className='text-blue-500'>{'}'}</span>
-            </span>
-          <span className='text-white'>{'>'}</span>
-          <div className='text-white ml-4'>Discord Adresim: cactusdev#8952</div>
-          <div className='ml-4'>
-            <span className='text-blue-400'>{''}</span>
-          </div>
-          <span className='ml-2 text-white'>{'</'}</span>div<span className='text-white'>{'>'}</span>
-          <div></div>
-          <span className='text-white'>{'</'}</span>div<span className='text-white'>{'>'}</span>
-        </div> 
+         
        
         <div className='ml-6 text-green-500'><span className='text-white'>{'</'}</span>body<span className='text-white'>{'>'}</span></div>
         <div className='ml-4 text-orange-500'>)</div>
