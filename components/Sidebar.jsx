@@ -54,6 +54,14 @@ export function Sidebar() {
                             </div>
                         </Link>
                     </div>
+                    <div className={`${path == '/projeler' ? 'bg-white/25' : ''} hover:bg-white/25 pr-2 pl-2`}>
+                        <Link href='/projeler'>
+                            <div className="flex flex-row items-center gap-2">
+                                <Image width={1024} height={1024} className={'w-4 h-4'} alt='.js' src={'/js.png'} />
+                                <span>projelerim.js</span>
+                            </div>
+                        </Link>
+                    </div>
                 </div>
               </div>
             </aside>
