@@ -5,7 +5,7 @@ export default function AnaSayfa() {
     return (
         <>
             <div className={`flex flex-col gap-2 text-md md:text-xl`}>
-                İsmin ne oç?
+                İsmin?
                 <div className={`text-sm md:text-md text-bold`}>
                     ismim {`${isim}`} {`${soyisim}`} ama nickname{`'`}im cactusdev{`'`}dir
                 </div>
