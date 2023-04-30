@@ -26,7 +26,7 @@ export default function Home() {
               <span className='text-blue-500'>{'}'}</span>
             </span>
           <span className='text-white'>{'>'}</span>
-          <div className='ml-2 text-white'>İsmin ne oç?</div>
+          <div className='ml-2 text-white'>İsmin?</div>
           <span className='ml-2 text-white'>{'<'}</span>div{' '}
             <span className='text-purple-500'> 
               className<span className='text-red-500'>=</span>
