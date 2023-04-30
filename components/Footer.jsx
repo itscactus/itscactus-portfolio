@@ -7,7 +7,8 @@ export function Footer() {
     const router = useRouter();
     const path = usePathname();
     function renderPage() {
-        let renderPage = path == '/' ? '/rendered' : (path == '/hakkimda' ? '/rendered/hakkimda' : '');
+        // let renderPage = path == '/' ? '/rendered' : (path == '/hakkimda' ? '/rendered/hakkimda' : '');
+        let renderPage = '/rendered' + path;
         router.push(renderPage)
     }
     return (
@@ -22,7 +23,7 @@ export function Footer() {
                     <span>instagram</span>
                 </Link>
                 {
-                    (path == '/' || path == '/hakkimda') ?  
+                    (path == '/' || path == '/hakkimda' || path == '/projeler') ?  
                     <button onClick={() => renderPage()} className='absolute right-28 hover:bg-white/20 pt-0 pb-0 pr-2 pl-2'>$ npm run dev</button>
                     : ''
                 }
