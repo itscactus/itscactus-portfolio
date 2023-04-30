@@ -35,7 +35,7 @@ export default function Hakkimda() {
           <span className='text-white'>{'>'}</span>
           <div className='text-white ml-4'>
             Yaklaşık 3 senedir kodladığım Dashboardlı Discord Destek Botu
-            <span className='text-white'>{'<'}<span className='text-green-500'>a</span> <span className='text-blue-400'>href=<span className='text-blue-500'>{'{'}{"'"}https://destekelcisi.com{"'"}{'}'}</span></span> <span className='text-white'>{'>'}</span></span>
+            <span className='text-white'>{'<'}<span className='text-green-500'>a</span> <span className='text-purple-500'>href=<span className='text-blue-500'>{'{'}<span className='text-blue-400'>{"'"}https://destekelcisi.com{"'"}</span>{'}'}</span></span><span className='text-white'>{'>'}Destek Elçisi{'</'}<span className='text-green-500'>a</span>{'>'}</span></span>
           </div>
           <div className='ml-4'>
             <span className='text-blue-400'>{''}</span>
